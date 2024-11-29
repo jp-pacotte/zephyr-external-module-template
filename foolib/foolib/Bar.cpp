@@ -5,7 +5,7 @@ Bar::Bar():_answerValue(answerValue)
 {
 }
 
-auto getAnswerValue() -> int
+auto Bar::getAnswerValue() -> int
 {
     return _answerValue;
 }

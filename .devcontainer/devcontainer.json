@@ -20,12 +20,13 @@
         "ms-vscode.cpptools-extension-pack",
         "ms-azuretools.vscode-docker",
         "mcu-debug.debug-tracker-vscode",
-        "evilz.vscode-reveal",       
+        "evilz.vscode-reveal",
         "plorefice.devicetree",
         "trond-snekvik.kconfig-lang",
         "marus25.cortex-debug",
         "cheshirekow.cmake-format",
-        "ms-vscode.cmake-tools"
+        "ms-vscode.cmake-tools",
+        "ms-python.python"
       ],
       "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"

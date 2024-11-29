@@ -8,7 +8,7 @@ ZTEST_F(foolib_bar, test_get_answer_value)
 {
   auto bar = Bar(42);
 
-  answerValue = bar.getAnswerValue();
+  auto answerValue = bar.getAnswerValue();
 
   assert_equal(answerValue, 42);
 }
