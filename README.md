@@ -1,0 +1,1 @@
+# zephyr-external-module-template
