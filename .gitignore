@@ -3,7 +3,6 @@
 build/
 /modules/
 /tools/
-# /zephyr/
 twister-out*/
 .gdb_history
 __pycache__
