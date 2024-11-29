@@ -7,3 +7,4 @@ manifest:
     - name: zephyr
       remote: zephyrproject-rtos
       revision: v3.7.0
+      path: .zephyr/
