@@ -1,0 +1,34 @@
+{
+  "name": "Zephyr external module template",
+  "privileged": true,
+  "updateRemoteUserUID": true,
+  "remoteEnv": {
+    "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+  },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "containerEnv": {
+    "WORKSPACE_DIR": "${containerWorkspaceFolder}",
+    "PROMPT_COMMAND": "history -a"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-azuretools.vscode-docker",
+        "mcu-debug.debug-tracker-vscode",
+        "evilz.vscode-reveal",       
+        "plorefice.devicetree",
+        "trond-snekvik.kconfig-lang",
+        "marus25.cortex-debug",
+        "cheshirekow.cmake-format",
+        "ms-vscode.cmake-tools"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
