@@ -1,7 +1,7 @@
 .west/
 /bootloader/
 build/
-/modules/
+modules/
 /tools/
 twister-out*/
 .gdb_history
@@ -9,5 +9,5 @@ __pycache__
 .pytest_cache/
 openocd/
 nohup.out
-
+lib/zephyr
 *.bin
