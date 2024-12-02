@@ -1,3 +1,3 @@
 name: foolib
 build:
-  cmake: ./lib/foolib/
+  cmake: ./lib/src/foolib/
