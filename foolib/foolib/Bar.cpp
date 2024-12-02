@@ -1,7 +1,8 @@
 #include "Bar.hpp"
 
+using namespace foolib;
 
-Bar::Bar():_answerValue(answerValue)
+Bar::Bar(int answerValue):_answerValue(answerValue)
 {
 }
 

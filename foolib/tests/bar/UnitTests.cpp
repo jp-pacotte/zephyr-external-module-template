@@ -2,7 +2,9 @@
 #include <zephyr/ztest.h>
 
 
-BOLT_ZTEST_SUITE(foolib_bar);
+using namespace foolib;
+
+ZTEST_SUITE(foolib_bar,NULL,NULL,NULL,NULL,NULL);
 
 ZTEST_F(foolib_bar, test_get_answer_value)
 {
@@ -10,5 +12,5 @@ ZTEST_F(foolib_bar, test_get_answer_value)
 
   auto answerValue = bar.getAnswerValue();
 
-  assert_equal(answerValue, 42);
+  zassert_equal(answerValue, 42);
 }

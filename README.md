@@ -6,3 +6,5 @@
 4. `west init`
 5. `west update`
 6. `zephyr/scripts/twister -v -T tests`
+
+west build -p auto -b native_sim tests/bar
